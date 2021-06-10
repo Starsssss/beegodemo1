@@ -1,0 +1,29 @@
+# POST http://dummy.restapiexample.com/api/v1/create HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name":"Hendry",
+#     "salary":"61888",
+#     "age":"26"
+# }
+
+GET https://test.ukoedu.com/camp/api/camp/getMyStudySummary HTTP/1.1
+content-type: application/json
+Accept: application/x-www-form-urlencoded
+
+{
+    "name":"Hendry",
+    "salary":"61888",
+    "age":"26"
+}
+
+
+###
+POST https://test.ukoedu.com/knpEdit/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "username":"chenruixin",
+    "password":"20080808qq..",
+    "age":"26"
+}
