@@ -19,6 +19,7 @@ func init() {
 	beego.Router("/danmu", &controllers.DanmuController{}, "get:GetDanmu")
 	beego.Router("/danmu/GetDanmu", &controllers.DanmuController{}, "get:GetDanmu")
 	beego.Router("/danmu/send", &controllers.DanmuController{}, "post:SaveDanmu")//接收发送的弹幕
-	beego.Router("/", &controllers.DanmuController{}, "get:GetDanmu")
+	// beego.Router("/", &controllers.DanmuController{}, "get:GetDanmu")
+	beego.Router("/", &controllers.TestController{}, "get:Hello")
 
 }
